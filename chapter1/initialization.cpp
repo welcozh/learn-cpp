@@ -12,8 +12,10 @@ int main(int argc, char *argv[]) {
 	// brace initialization: error, not warning, type needs match
 	// int d{3.5};
 
-	return 1;
+	int x;
+	cout << "x = " << x << "\n";
 
+	return 0;
 }
 
 
